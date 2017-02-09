@@ -10,8 +10,8 @@
             </div>
             <ul id="nav">
 
-                <li><a href="About.html"></a>Home</li>
-                <li>About</li>
+                <li>Home</li>
+                <li><a href="about.php">About</a></li>
                 <li>Contact</li>
                 <li>Blog</li>
 
