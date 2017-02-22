@@ -22,7 +22,6 @@ html::after{
     width: 100%;
     top: 0;
     left: 0;
-    background: rgb(166, 160, 93);
     z-index: -1;
     background: linear-gradient(to top,transparent,rgba(166, 160, 93, .5));)
 }
@@ -35,9 +34,9 @@ nav{
 
 #nav {
     text-align: justify;
-    font-family: 'Rancho', cursive;
+    font-family: 'Neucha', cursive;
     font-size: 50px;
-    color: #4bd1d1;
+    color: #6f6870;
     float: left;
     margin: 50px;
 
@@ -58,7 +57,7 @@ nav{
 
 
 nav li:hover{
-     border-bottom: 2px solid #d2b4d6;
+     border-bottom: 2px solid #6f6870;
 
 }
 
@@ -71,7 +70,7 @@ nav li:hover{
 #child1{
     display: inline-block;
     height: auto;
-    width: 100%;
+    max-width: 100%;
 
 }
 
@@ -82,6 +81,8 @@ nav li:hover{
 
 #child2{
     display: inline-block;
+    height: auto;
+    max-width: 100%;
 }
 
 #myfooter{
@@ -101,8 +102,8 @@ figure{
 figcaption{
     position: relative;
     bottom: 65px;
-    color: #76eaf4;
-    font-family: 'Merienda';
+    color: #6f6870;
+    font-family: 'Neucha', cursive;
     font-weight: bold;
     font-size: 25px;
     text-shadow: 2px 2px #372d39;
@@ -111,18 +112,19 @@ figcaption{
 }
 
 .slick-dots li button{
-    background: #c962d8;
+    background: #6f6870;
 
 }
 
 h1 {
     font-family: 'Rancho', cursive;
-    color: #7a4282;
+    color: #6f6870;
     font-size: 28px;
     padding-top: 40px;
     padding-right: 30px;
     padding-bottom: 20px;
     padding-left: 50px;
+    letter-spacing: 1.5px;
 }
 
 #mainp {
@@ -141,9 +143,11 @@ main {
 }
 
 h2{
-    color: #7a4282;
+    color: #6f6870;
     text-align: center;
-    text-shadow: 2px 2px #372d39;
+    text-shadow: 2px 2px #c1bac2;
+    font-size: 40px;
+    text-decoration: underline;
 
 }
 

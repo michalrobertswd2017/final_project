@@ -3,11 +3,11 @@
     <body>
         <main>
             <h2>About Play Therapy</h2>
-            <br>
+
             <div id="about">
             <p>A child's natural mode of learning and expression is play. While adults may talk to help them through difficulties, children's cognitive abilities and verbal skills are still developing. Play Therapy recognises the healing potential in play. Rather than relying on talking, Play Therapy supports children's healing through creative and experiential means.
             </p>
-                <br>
+
             <p>
 During a session, I work with a child in a room equipped with toys and equipment which encourage imagination. Through creative play the child can express and explore feelings, make sense of life experiences and develop healthy behaviours.  Sandplay, puppets, art, role play, clay and creative visualisation can all form part of the therapy experience.
 Play Therapy offers children an experience of acceptance, non-judgement, encouragement and freedom. It supports a child's ability to sort out their struggles through play, helping them grow towards healing, health and resilience.
