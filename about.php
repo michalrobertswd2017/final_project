@@ -4,6 +4,18 @@
         <main>
             <h2>About Play Therapy</h2>
 
+            <div class="slickslider">
+<div>
+             <p>A child's natural mode of learning and expression is play. While adults may talk to help them through difficulties, children's cognitive abilities and verbal skills are still developing. Play Therapy recognises the healing potential in play. Rather than relying on talking, Play Therapy supports children's healing through creative and experiential means.
+            </p></div>
+            <div>
+             <p>A child's natural mode of learning and expression is play. While adults may talk to help them through difficulties, children's cognitive abilities and verbal skills are still developing. Play Therapy recognises the healing potential in play. Rather than relying on talking, Play Therapy supports children's healing through creative and experiential means.
+            </p></div>
+        <div>
+             <p>A child's natural mode of learning and expression is play. While adults may talk to help them through difficulties, children's cognitive abilities and verbal skills are still developing. Play Therapy recognises the healing potential in play. Rather than relying on talking, Play Therapy supports children's healing through creative and experiential means.
+            </p></div>
+            </div>
+
             <div id="about">
             <p>A child's natural mode of learning and expression is play. While adults may talk to help them through difficulties, children's cognitive abilities and verbal skills are still developing. Play Therapy recognises the healing potential in play. Rather than relying on talking, Play Therapy supports children's healing through creative and experiential means.
             </p>

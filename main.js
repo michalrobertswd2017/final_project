@@ -1,5 +1,8 @@
 $(function(){
 
+
+    $(".slickslider").slick();
+
     var $myNavItem = $("nav > ul > li");
     $myNavItem.on("mouseover", function(){
         $(this).find("div").animate(
@@ -32,27 +35,21 @@ $(function(){
         dots: true
     }   );
 
-    $("#contact").validate({
-        // Set the validation rules
-        rules: {
-            name: "required",
-            email: {
-                required: true,
-                email: true
-            },
-            message: "required",
-        },
-        // Specify the validation error messages
-        messages: {
-            name: "Please enter your name",
-            email: "Please enter a valid email address",
-            message: "Please enter a message",
-        },
-        // submit handler
-        submitHandler: function(form) {
-          //form.submit();
-           $(".message").show();
-           $(".message").fadeOut(4500);
-        }
-    });
+
+    var $theForm = $("#contact_form");
+   $theForm.submit(function(e){
+        e.preventDefault();
+         var form_data = $theForm.serialize();
+
+        $.ajax(
+             {type: 'POST', url: $theForm.attr("action"), data: form_data}
+         ).done(function(response){
+            $theForm.html("<h2>"+response+"</h2>");
+         }).fail(function(response){
+            $theForm.append("<h2>"+response+"</h2>");
+         });
+     });
+
 });
+
+

@@ -1,13 +1,13 @@
-/*
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-*/
+
 
 html{
-    background:  transparent url("yellow.jpg")no-repeat 0 0 / cover;
+    background:  #ffffff
        position: relative;
   background-size: cover;
 
@@ -23,13 +23,16 @@ html::after{
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(to top,transparent,rgba(166, 160, 93, .5));)
+
 }
 
 nav{
 
     margin: 0;
     overflow: hidden;
+    border-bottom: 1px solid grey;
+    padding: .5px;
+
     }
 
 #nav {
@@ -39,6 +42,7 @@ nav{
     color: #6f6870;
     float: left;
     margin: 50px;
+
 
     }
 
@@ -50,7 +54,7 @@ nav{
 
 #nav li {
     display: inline-block;
-    padding: 25px;
+    padding: 5px;
 
 }
 
@@ -70,7 +74,7 @@ nav li:hover{
 #child1{
     display: inline-block;
     height: auto;
-    max-width: 100%;
+    max-width: 50em;
 
 }
 
@@ -82,7 +86,7 @@ nav li:hover{
 #child2{
     display: inline-block;
     height: auto;
-    max-width: 100%;
+    max-width: 50em;
 }
 
 #myfooter{
@@ -187,13 +191,14 @@ h2{
   border-radius:6px 6px 0px 0px;
   border-radius:6px 6px 0px 0px;
   border-radius:6px 6px 0px 0px;
-  background-color:#2ABCA7;
+  background-color:#6f6870;
   color:#FAFAFA;
 }
 .contact {
   text-align:center;
   padding:18px 0 18px 0;
-  font-size: 1.4em;
+  font-size: 2.4em;
+    color: #FAFAFA;
 }
 input {
   margin-bottom:10px;
@@ -240,12 +245,12 @@ input, textarea {
 button {
   margin-top:15px;
   margin-bottom:25px;
-  background-color:#2ABCA7;
+  background-color:#6f6870;
   padding: 12px 45px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #2ABCA7;
+  border: 1px solid #c1bac2;
   -webkit-transition: .5s;
   transition: .5s;
   display: inline-block;
@@ -254,7 +259,7 @@ button {
   color:#fff;
 }
 button:hover, .button:hover {
-  background:#19a08c;
+  background:#c1bac2;
 }
 label.error {
     font-family:'Source Sans Pro',arial,sans-serif;
@@ -291,7 +296,7 @@ label.error {
     display:none;
     padding-top:10px;
     padding-bottom:10px;
-    background-color:#2ABCA7;
+    background-color:#c1bac2;
     width: 80%;
     margin:auto;
     color: #FAFAFA;

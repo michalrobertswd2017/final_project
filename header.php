@@ -24,7 +24,7 @@
 
                 <li><a href=index.php>Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="contact.php"></a>Contact</li>
+                <li><a href="contact.php">Contact</a></li>
                 <li>Blog</li>
 
 

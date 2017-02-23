@@ -1,14 +1,19 @@
  <? include("header.php"); ?>
 <div class="slider">
+    <div>
     <figure>
+
         <img id="child1" src="childtry.jpg">
         <figcaption>In play, a child says things without uttering a word</figcaption>
     </figure>
+</div>
 
+    <div>
     <figure>
         <img id="child2" src="images/therapysmall.jpg">
         <figcaption>Play is a child's language...</figcaption>
     </figure>
+        </div>
 </div>
         <div id="mainp">
 
