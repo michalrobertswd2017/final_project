@@ -46,11 +46,12 @@ nav{
 
     }
 
-#nav:after {
+/*#nav:after {
     content: '';
     display: inline-block;
     width: 100%;
 }
+*/
 
 #nav li {
     display: inline-block;
@@ -58,7 +59,7 @@ nav{
 
 }
 
-
+nav
 
 nav li:hover{
      border-bottom: 2px solid #6f6870;
