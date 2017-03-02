@@ -1,20 +1,17 @@
  <? include("header.php"); ?>
 <div class="slider">
-<!--
-    <div class="firstpic">
+    <div>
     <figure>
 
-        <img id="child1" src="bluebells.jpg" alt="">
-        <figcaption><span>Play is a child's languauge</span></figcaption>
+        <img id="child1" src="childtry.jpg">
+        <figcaption>In play, a child says things without uttering a word</figcaption>
     </figure>
-
 </div>
--->
 
-    <div class="secondpic">
+    <div>
     <figure>
-        <img id="child2" src="bluebells.jpg">
-        <figcaption><span>Play is a child's language...</span></figcaption>
+        <img id="child2" src="buubles.jpg">
+        <figcaption>Play is a child's language...</figcaption>
     </figure>
         </div>
 </div>
@@ -24,7 +21,7 @@
             </p>
             <br>
 
-        <p>My name is Ariella Levy, and I  am a child-centred Play Therapist who provides weekly therapy sessions for children and support meetings to parents and carers. <br>I believe deeply in children's capacity to heal, and I am passionate about providing support for families to grow together.
+        <p>My name is Ariella Levy, and I provide weekly therapy sessions for children and support meetings to parents and carers. I believe deeply in children's capacity to heal, and I am passionate about providing support for families to grow together.
         </p>
             <br>
         <p>

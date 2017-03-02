@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -44,7 +45,6 @@ nav{
     margin: 50px;
 
 
-
     }
 
 #nav:after {
@@ -66,28 +66,11 @@ nav{
    float: left;
 }
 
-.firstpic {
-   position: relative;
-   width: 100%;
-}
-
-secondpic{
-    position: relative;
-    max-width: 100%;
-}
-
-figcaption {
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
-}
-
 #child1{
     display: inline-block;
     height: auto;
     max-width: 100%;
-    object-fit: cover;
+
 }
 
 @media all and (max-width: 399px){
@@ -99,7 +82,7 @@ figcaption {
     display: inline-block;
     height: auto;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #myfooter{
@@ -116,23 +99,8 @@ figure{
     text-align: center;
     height: 400px;
     overflow: hidden;
-
 }
 
-figcaption span {
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-
-}
-
-figcaption{
-    padding: 120px;
-}
-/*
 figcaption{
     position: relative;
     bottom: 65px;
@@ -144,7 +112,6 @@ figcaption{
 
 
 }
-*/
 
 .slick-dots li button{
     background: #6f6870;
@@ -175,39 +142,16 @@ h1 {
 
 main {
     font-family: 'Merienda', cursive;
-
 }
 
-.about_title{
-    color: #f3f355;
-    font-family:'Neucha';
+h2{
+    color: #6f6870;
+    text-align: center;
     text-shadow: 2px 2px #c1bac2;
     font-size: 40px;
-    text-decoration: none;
-    padding: 10px;
-    text-align:left;
+    text-decoration: underline;
 
 }
-
-.blog_title{
-     color: #f3f355;
-    font-family:'Neucha';
-    text-shadow: 2px 2px #c1bac2;
-    font-size: 40px;
-    text-decoration: none;
-    padding: 10px;
-    text-align:left;
-}
-
-.main_blog{
-
-    text-align: left;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-}
-
 
 #about {
     text-align: left;
@@ -222,21 +166,8 @@ main {
     text-align: center;
     text-decoration: underline;
     font-size: 20px;
-    font-family:'Neucha';
+    font-family: 'Merienda', cursive;
 
-}
-
-.methods_contact{
-    padding: 50px;
-    text-align: center;
-}
-
-.contact_title{
-    font-size: 25px;
-}
-
-.contact_info{
-    font-size: 20px;
 }
 
 .formbody {
@@ -266,17 +197,6 @@ main {
   padding:18px 0 18px 0;
   font-size: 2.4em;
     color: #FAFAFA;
-      transition: font-size .5s;
-    padding: 25px;
-
-}
-
-.contact:hover{
-    font-size: 2em;
-    color: black;
-    transform: perspective(90deg)
-}
-
 }
 input {
   margin-bottom:10px;
